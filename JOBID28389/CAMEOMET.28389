@@ -1,0 +1,13 @@
+24 07 11 21 0  
+1                  
+35.211370 -120.854588 10.0      
+0                  
+0                  
+10000.0            
+3                #NUMBER nextfile mfile OF INPUT DATA GRIDS
+/pub/archives/reanalysis/
+RP202407.gbl
+/pub/archives/reanalysis/
+RP202406.gbl
+/pub/archives/reanalysis/
+RP202408.gbl

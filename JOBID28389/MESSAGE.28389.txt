@@ -1,0 +1,750 @@
+ Simulation Date (CCYYMMDD): 20251202
+ Simulation Time (HHMMSS.S): 103408.537
+ WARNING metini: surface terrain not found in file
+ NOTICE metini: MODEL_ID not AWRF in data (kg,kt)           1           1
+ Setting DREC(KG,KT)%WVERT=.FALSE. to use default vertical interpolation!
+ WARNING metini: FLUXES not found in data (kg,kt)           1           1
+ Setting KBLS=2 to use the wind/temp profiles!
+  NOTICE metini: turbulence undefined (kblt=0); setting to Kantha-Clayson
+ Simulation Date (CCYYMMDD): 20251202
+ Simulation Time (HHMMSS.S): 103408.548
+ WARNING metini: surface terrain not found in file
+ NOTICE metini: MODEL_ID not AWRF in data (kg,kt)           2           1
+ Setting DREC(KG,KT)%WVERT=.FALSE. to use default vertical interpolation!
+ WARNING metini: FLUXES not found in data (kg,kt)           2           1
+ Setting KBLS=2 to use the wind/temp profiles!
+  NOTICE metini: turbulence undefined (kblt=0); setting to Kantha-Clayson
+ Simulation Date (CCYYMMDD): 20251202
+ Simulation Time (HHMMSS.S): 103408.551
+ WARNING metini: surface terrain not found in file
+ NOTICE metini: MODEL_ID not AWRF in data (kg,kt)           3           1
+ Setting DREC(KG,KT)%WVERT=.FALSE. to use default vertical interpolation!
+ WARNING metini: FLUXES not found in data (kg,kt)           3           1
+ Setting KBLS=2 to use the wind/temp profiles!
+  NOTICE metini: turbulence undefined (kblt=0); setting to Kantha-Clayson
+ 
+   KG   KT DATA  SIZE   NX   NY
+    1    1 CDC1 278.0  144   73
+    1    2 CDC1 278.0  144   73
+    1    3 CDC1 278.0  144   73
+ 
+  NOTICE   main: number meteo grids and times -            1           3
+ Initial call to rdizsg to retrieve nlvl
+ rdizsg: zsg model levels not changed
+  
+ HYSPLIT
+ HYSPLIT version: hysplit.v5.4.2
+ Last Changed Date: 2025-05-14
+ ------------- Start Namelist configuration -------------------
+ Internal grid parameters (nlvl,aa,bb,cc):           19   30.00000    
+  -25.00000       5.000000    
+ &SETUP
+ INITD   =           0,
+ KHMAX   =        9999,
+ NUMPAR  =       12500,
+ MAXPAR  =       15000,
+ MAXDIM  =           1,
+ QCYCLE  =  0.0000000E+00,
+ P10F    =   1.000000    ,
+ KMIXD   =           0,
+ KMIX0   =         150,
+ FRME    =  0.1000000    ,
+ FRMR    =  0.0000000E+00,
+ KRND    =           6,
+ DELT    =  0.0000000E+00,
+ KDEF    =           0,
+ TKERD   =  0.1800000    ,
+ TKERN   =  0.1800000    ,
+ NDUMP   =           2,
+ NCYCL   =           2,
+ TRATIO  =  0.7500000    ,
+ ISOT    =         -99,
+ MGMIN   =          10,
+ KMSL    =           0,
+ NSTR    =           0,
+ MHRS    =           0,
+ NVER    =           0,
+ CPACK   = 99*1,
+ CMASS   =           0,
+ ICHEM   =           0,
+ EFILE   =                                                                                                                           
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                               ,
+ VSCALE  =   200.0000    ,
+ VSCALES =   5.000000    ,
+ VSCALEU =   200.0000    ,
+ K10M    =           1,
+ VDIST   = VMSDIST                                                                                                                   
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                               ,
+ KHINP   =           0,
+ PINBC   = PARINBC                                                                                                                   
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                               ,
+ TOUT    =           0,
+ TM_PRES =           0,
+ TM_TPOT =           0,
+ TM_TAMB =           0,
+ TM_RAIN =           0,
+ TM_MIXD =           0,
+ TM_TERR =           0,
+ HSCALE  =   10800.00    ,
+ TM_DSWF =           0,
+ TM_RELH =           0,
+ TM_SPHU =           0,
+ TM_MIXR =           0,
+ TM_UWND =           0,
+ TM_VWND =           0,
+ DXF     =   1.000000    ,
+ DYF     =   1.000000    ,
+ DZF     =  9.9999998E-03,
+ PINPF   = PARINIT                                                                                                                   
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                               ,
+ POUTF   = PARDUMP.28389                                                                                                             
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                               ,
+ NINIT   =           1,
+ KAGL    =           0,
+ KPUFF   =           0,
+ KBLT    =           0,
+ KZMIX   =           0,
+ TVMIX   =   1.000000    ,
+ KBLS    =           1,
+ CONAGE  =          24,
+ KSPL    =           1,
+ FRHS    =   1.000000    ,
+ FRVS    =  9.9999998E-03,
+ FRTS    =  0.1000000    ,
+ FRHMAX  =   3.000000    ,
+ SPLITF  =   1.000000    ,
+ MESSG   = MESSAGE                                                                                                                   
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                               ,
+ NBPTYP  =           1,
+ RHB     =          80,
+ RHT     =          60,
+ OUTDT   =           0,
+ DECAY   =           1,
+ KWET    =           1,
+ KRAND   =           1,
+ CAPEMIN =  -1.000000    ,
+ TKEMIN  =  1.0000000E-03,
+ URATIO  =   5.873300    ,
+ WBWR    =  0.0000000E+00,
+ WBWF    =  0.0000000E+00,
+ WBBH    =  0.0000000E+00,
+ SEED    =           0,
+ GEMAGE  =          48,
+ VINIT   =           1,
+ VBUG    =  0.0000000E+00,
+ CMTFN   =                                                                                                                           
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+                                                                                                               ,
+ RANDOM  =           0,
+ TLFRAC  =  0.1000000    ,
+ NTURB   =           0,
+ VEGHT   =  0.5000000    ,
+ ZICONTROLTF     =           0,
+ WINDERRTF       =           0,
+ IVMAX   =          20,
+ VARSIWANT       = TIMEINDXLONGLATIZAGLSIGWTLGRZSFCTEMPSAMTFOOTSHTFDMASDENSRHFRSPHUDSWFWOUTMLHTPRES                                  
+                                                                                                                                     
+                                                                                                                                     
+                       ,
+ IDSP    =           1,
+ WVERT   = T,
+ PLRISE  =           1,
+ AREA    =           0,
+ TERRFLG =           0,
+ TFMT    =           1
+ /
+ ------------- End Namelist configuration -------------------
+  
+  NOTICE   main: pollutant initialization flags
+       Gas pollutant -  T
+      Dry deposition -  T
+  NOTICE   main: meteorological data flags
+     Ten meter wind -  T
+     Two meter temp -  T
+     Exchange coeff -  F
+          Heat flux -  F
+      Momentum flux -  F
+  Velocity variance -  F
+       3D TKE field -  F
+     Down shortwave -  F
+  Friction velocity -  F
+      Friction temp -  F
+     Terrain height -  F
+   Surface pressure -  T
+  Mixed layer depth -  F
+  Convective mixing -  F
+  Profile averaging -            0
+   Stability method -            2
+  Horizontal mixing -            0
+  PBL mixing scheme -            2
+   Free Trop Mixing -    1.000000    
+  Precip accumulate -          360
+ ------------- Start computation messages -------------------
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10   92   47
+  NOTICE metpos: closed unit -            1           1        1001
+  NOTICE metpos: (mtime,ftime) -     65495160           0
+  NOTICE metpos: (mtime,ftime) -     65495520           0
+  NOTICE advpnt: (kg,nx,ny,nz) -     1   10   10   19
+  NOTICE sfcinp: reading ASCDATA.CFG
+  NOTICE sfcinp: ../bdyfiles/LANDUSE.ASC file not found
+  Using default value category 2 agricultural
+  NOTICE sfcinp: ../bdyfiles/ROUGLEN.ASC file not found
+  Using default value 0.20 m
+  NOTICE metgrd: (kg, xyr,xy1) -     1   10   10   92   47
+  NOTICE metinp: CDC1 1 4043   10   10   92   47 65495160 24  7 11 18
+  NOTICE metinp: CDC1 1 4137   10   10   92   47 65495520 24  7 12  0
+ WARNING Terrain height will be estimated from surface pressure.
+         This may cause terrain height to flucuate with time
+ WARNING Terrain height will be estimated from surface pressure.
+         This may cause terrain height to flucuate with time
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10   92   47
+  NOTICE   main: Initial time step (min)            1
+  NOTICE emspnt: emissions started
+  NOTICE   main:            1    65495341         209  1.6653342E-02
+  NOTICE   main:            1    65495342         418  3.3293147E-02
+  NOTICE   main:            1    65495343         627  4.9919803E-02
+  NOTICE   main:            1    65495344         836  6.6533409E-02
+  NOTICE   main:            1    65495345        1045  8.3134122E-02
+  NOTICE   main:            1    65495346        1254  9.9721260E-02
+  NOTICE   main:            1    65495347        1463  0.1162956    
+  NOTICE   main:            1    65495348        1672  0.1328552    
+  NOTICE   main:            1    65495349        1881  0.1494007    
+  NOTICE   main:            1    65495350        2090  0.1659345    
+  NOTICE   main:            1    65495351        2299  0.1824540    
+  NOTICE   main:            1    65495352        2508  0.1989606    
+  NOTICE   main:            1    65495353        2717  0.2154544    
+  NOTICE   main:            1    65495354        2926  0.2319364    
+  NOTICE   main:            1    65495355        3135  0.2484039    
+  NOTICE   main:            1    65495356        3344  0.2648603    
+  NOTICE   main:            1    65495357        3553  0.2813042    
+  NOTICE   main:            1    65495358        3762  0.2977307    
+  NOTICE   main:            1    65495359        3971  0.3141449    
+  NOTICE   main:            1    65495360        4180  0.3305463    
+  NOTICE   main:            1    65495361        4389  0.3469354    
+  NOTICE   main:            1    65495362        4598  0.3633116    
+  NOTICE   main:            1    65495363        4807  0.3796780    
+  NOTICE   main:            1    65495364        5016  0.3960295    
+  NOTICE   main:            1    65495365        5225  0.4123631    
+  NOTICE   main:            1    65495366        5434  0.4286829    
+  NOTICE   main:            1    65495367        5643  0.4449930    
+  NOTICE   main:            1    65495368        5852  0.4612916    
+  NOTICE   main:            1    65495369        6061  0.4775753    
+  NOTICE   main:            1    65495370        6270  0.4938462    
+  NOTICE   main:            1    65495371        6479  0.5101061    
+  NOTICE   main:            1    65495372        6688  0.5263556    
+  NOTICE   main:            1    65495373        6897  0.5425954    
+  NOTICE   main:            1    65495374        7106  0.5588180    
+  NOTICE   main:            1    65495375        7315  0.5750269    
+  NOTICE   main:            1    65495376        7524  0.5912203    
+  NOTICE   main:            1    65495377        7733  0.6073951    
+  NOTICE   main:            1    65495378        7942  0.6235570    
+  NOTICE   main:            1    65495379        8151  0.6397044    
+  NOTICE   main:            1    65495380        8360  0.6558412    
+  NOTICE   main:            1    65495381        8569  0.6719722    
+  NOTICE   main:            1    65495382        8778  0.6880918    
+  NOTICE   main:            1    65495383        8987  0.7041938    
+  NOTICE   main:            1    65495384        9196  0.7202814    
+  NOTICE   main:            1    65495385        9405  0.7363542    
+  NOTICE   main:            1    65495386        9614  0.7524155    
+  NOTICE   main:            1    65495387        9823  0.7684668    
+  NOTICE   main:            1    65495388       10032  0.7845058    
+  NOTICE   main:            1    65495389       10241  0.8005334    
+  NOTICE   main:            1    65495390       10450  0.8165536    
+  NOTICE   main:            1    65495391       10659  0.8325606    
+  NOTICE   main:            1    65495392       10868  0.8485541    
+  NOTICE   main:            1    65495393       11077  0.8645364    
+  NOTICE   main:            1    65495394       11286  0.8804945    
+  NOTICE   main:            1    65495395       11495  0.8964375    
+  NOTICE   main:            1    65495396       11704  0.9123647    
+  NOTICE   main:            1    65495397       11913  0.9282802    
+  NOTICE   main:            1    65495398       12122  0.9441828    
+  NOTICE   main:            1    65495399       12331  0.9600788    
+  NOTICE   main:            1    65495400       12540  0.9759622    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10   92   47
+  NOTICE emspnt: emissions terminated
+  NOTICE   main:            2    65495403       12540  0.9736126    
+  NOTICE   main:            2    65495406       12540  0.9712709    
+  NOTICE   main:            2    65495409       12540  0.9689681    
+  NOTICE   main:            2    65495412       12540  0.9666553    
+  NOTICE   main:            2    65495415       12540  0.9643442    
+  NOTICE   main:            2    65495418       12540  0.9620330    
+  NOTICE   main:            2    65495421       12540  0.9596924    
+  NOTICE   main:            2    65495424       12540  0.9573790    
+  NOTICE   main:            2    65495427       12540  0.9550822    
+  NOTICE   main:            2    65495430       12540  0.9528034    
+  NOTICE   main:            2    65495433       12540  0.9505242    
+  NOTICE   main:            2    65495436       12540  0.9482461    
+  NOTICE   main:            2    65495439       12540  0.9459687    
+  NOTICE   main:            2    65495442       12540  0.9436922    
+  NOTICE   main:            2    65495445       12540  0.9414196    
+  NOTICE   main:            2    65495448       12540  0.9391705    
+  NOTICE   main:            2    65495451       12540  0.9369333    
+  NOTICE   main:            2    65495454       12540  0.9347018    
+  NOTICE   main:            2    65495457       12540  0.9324696    
+  NOTICE condsk:  1 output at    7  11  23   0
+  NOTICE condsk:  2 output at    7  11  23   0
+  NOTICE condsk:  3 output at    7  11  23   0
+  NOTICE condsk:  4 output at    7  11  23   0
+  NOTICE condsk:  5 output at    7  11  23   0
+  NOTICE condsk:  6 output at    7  11  23   0
+  NOTICE   main:            2    65495460       12540  0.9302416    
+  NOTICE parout:   24   7  11  23   0    Num=   12540
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10   92   47
+  NOTICE   main:            3    65495462       12540  0.9287621    
+  NOTICE   main:            3    65495464       12540  0.9272816    
+  NOTICE   main:            3    65495466       12540  0.9258038    
+  NOTICE   main:            3    65495468       12540  0.9243253    
+  NOTICE   main:            3    65495470       12540  0.9228448    
+  NOTICE   main:            3    65495472       12540  0.9213685    
+  NOTICE   main:            3    65495474       12540  0.9199008    
+  NOTICE   main:            3    65495476       12540  0.9184384    
+  NOTICE   main:            3    65495478       12540  0.9169760    
+  NOTICE   main:            3    65495480       12540  0.9155160    
+  NOTICE   main:            3    65495482       12540  0.9140489    
+  NOTICE   main:            3    65495484       12540  0.9125895    
+  NOTICE   main:            3    65495486       12540  0.9111372    
+  NOTICE   main:            3    65495488       12540  0.9096799    
+  NOTICE   main:            3    65495490       12540  0.9082242    
+  NOTICE   main:            3    65495492       12540  0.9067758    
+  NOTICE   main:            3    65495494       12540  0.9053255    
+  NOTICE   main:            3    65495496       12540  0.9038728    
+  NOTICE   main:            3    65495498       12540  0.9024271    
+  NOTICE   main:            3    65495500       12540  0.9009823    
+  NOTICE   main:            3    65495502       12540  0.8995596    
+  NOTICE   main:            3    65495504       12540  0.8981510    
+  NOTICE   main:            3    65495506       12540  0.8967398    
+  NOTICE   main:            3    65495508       12540  0.8953272    
+  NOTICE   main:            3    65495510       12540  0.8939095    
+  NOTICE   main:            3    65495512       12540  0.8924944    
+  NOTICE   main:            3    65495514       12540  0.8910930    
+  NOTICE   main:            3    65495516       12540  0.8896935    
+  NOTICE   main:            3    65495518       12540  0.8882951    
+  NOTICE   main:            3    65495520       12540  0.8868918    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10   92   47
+  NOTICE metpos: (mtime,ftime) -     65495880    65495160
+  NOTICE metinp: CDC1 1 4231   10   10   92   47 65495880 24  7 12  6
+  NOTICE   main:            4    65495522       12540  0.8854949    
+  NOTICE   main:            4    65495524       12540  0.8841011    
+  NOTICE   main:            4    65495526       12540  0.8827269    
+  NOTICE   main:            4    65495528       12540  0.8813327    
+  NOTICE   main:            4    65495530       12540  0.8799511    
+  NOTICE   main:            4    65495532       12540  0.8785617    
+  NOTICE   main:            4    65495534       12540  0.8771766    
+  NOTICE   main:            4    65495536       12540  0.8757922    
+  NOTICE   main:            4    65495538       12540  0.8744206    
+  NOTICE   main:            4    65495540       12540  0.8730352    
+  NOTICE   main:            4    65495542       12540  0.8716573    
+  NOTICE   main:            4    65495544       12540  0.8703122    
+  NOTICE   main:            4    65495546       12540  0.8689720    
+  NOTICE   main:            4    65495548       12540  0.8676229    
+  NOTICE   main:            4    65495550       12540  0.8662836    
+  NOTICE   main:            4    65495552       12540  0.8649157    
+  NOTICE   main:            4    65495554       12540  0.8635484    
+  NOTICE   main:            4    65495556       12540  0.8621830    
+  NOTICE   main:            4    65495558       12540  0.8608411    
+  NOTICE   main:            4    65495560       12540  0.8595101    
+  NOTICE   main:            4    65495562       12540  0.8581816    
+  NOTICE   main:            4    65495564       12540  0.8568555    
+  NOTICE   main:            4    65495566       12540  0.8555325    
+  NOTICE   main:            4    65495568       12540  0.8542074    
+  NOTICE   main:            4    65495570       12540  0.8528616    
+  NOTICE   main:            4    65495572       12540  0.8515393    
+  NOTICE   main:            4    65495574       12540  0.8502292    
+  NOTICE   main:            4    65495576       12540  0.8489153    
+  NOTICE   main:            4    65495578       12540  0.8476108    
+  NOTICE condsk:  1 output at    7  12   1   0
+  NOTICE condsk:  2 output at    7  12   1   0
+  NOTICE condsk:  3 output at    7  12   1   0
+  NOTICE condsk:  4 output at    7  12   1   0
+  NOTICE condsk:  5 output at    7  12   1   0
+  NOTICE condsk:  6 output at    7  12   1   0
+  NOTICE   main:            4    65495580       12540  0.8463044    
+  NOTICE parout:   24   7  12   1   0    Num=   12540
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10   92   47
+  NOTICE   main:            5    65495582       12540  0.8449928    
+  NOTICE   main:            5    65495584       12540  0.8436967    
+  NOTICE   main:            5    65495586       12540  0.8423947    
+  NOTICE   main:            5    65495588       12540  0.8411040    
+  NOTICE   main:            5    65495590       12540  0.8398131    
+  NOTICE   main:            5    65495592       12540  0.8385173    
+  NOTICE   main:            5    65495594       12540  0.8372512    
+  NOTICE   main:            5    65495596       12540  0.8359762    
+  NOTICE   main:            5    65495598       12540  0.8346914    
+  NOTICE   main:            5    65495600       12540  0.8334104    
+  NOTICE   main:            5    65495602       12540  0.8321309    
+  NOTICE   main:            5    65495604       12540  0.8308725    
+  NOTICE   main:            5    65495606       12540  0.8296188    
+  NOTICE   main:            5    65495608       12540  0.8283424    
+  NOTICE   main:            5    65495610       12540  0.8270735    
+  NOTICE   main:            5    65495612       12540  0.8258044    
+  NOTICE   main:            5    65495614       12540  0.8245630    
+  NOTICE   main:            5    65495616       12540  0.8233196    
+  NOTICE   main:            5    65495618       12540  0.8220641    
+  NOTICE   main:            5    65495620       12540  0.8208060    
+  NOTICE   main:            5    65495622       12540  0.8195628    
+  NOTICE   main:            5    65495624       12540  0.8183329    
+  NOTICE   main:            5    65495626       12540  0.8171082    
+  NOTICE   main:            5    65495628       12540  0.8158576    
+  NOTICE   main:            5    65495630       12540  0.8146213    
+  NOTICE   main:            5    65495632       12540  0.8133985    
+  NOTICE   main:            5    65495634       12540  0.8121810    
+  NOTICE   main:            5    65495636       12540  0.8109539    
+  NOTICE   main:            5    65495638       12540  0.8097249    
+  NOTICE   main:            5    65495640       12540  0.8085111    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10   92   47
+  NOTICE   main:            6    65495642       12540  0.8072972    
+  NOTICE   main:            6    65495644       12540  0.8060963    
+  NOTICE   main:            6    65495646       12540  0.8048792    
+  NOTICE   main:            6    65495648       12540  0.8036755    
+  NOTICE   main:            6    65495650       12540  0.8024740    
+  NOTICE   main:            6    65495652       12540  0.8012730    
+  NOTICE   main:            6    65495654       12540  0.8000676    
+  NOTICE   main:            6    65495656       12540  0.7988679    
+  NOTICE   main:            6    65495658       12540  0.7976785    
+  NOTICE   main:            6    65495660       12540  0.7964813    
+  NOTICE   main:            6    65495662       12540  0.7952906    
+  NOTICE   main:            6    65495664       12540  0.7941054    
+  NOTICE   main:            6    65495666       12540  0.7929209    
+  NOTICE   main:            6    65495668       12540  0.7917490    
+  NOTICE   main:            6    65495670       12540  0.7905701    
+  NOTICE   main:            6    65495672       12540  0.7893912    
+  NOTICE   main:            6    65495674       12540  0.7882206    
+  NOTICE   main:            6    65495676       12540  0.7870606    
+  NOTICE   main:            6    65495678       12540  0.7858887    
+  NOTICE   main:            6    65495680       12540  0.7847216    
+  NOTICE   main:            6    65495682       12540  0.7835797    
+  NOTICE   main:            6    65495684       12540  0.7824135    
+  NOTICE   main:            6    65495686       12540  0.7812490    
+  NOTICE   main:            6    65495688       12540  0.7800998    
+  NOTICE   main:            6    65495690       12540  0.7789344    
+  NOTICE   main:            6    65495692       12540  0.7777781    
+  NOTICE   main:            6    65495694       12540  0.7766347    
+  NOTICE   main:            6    65495696       12540  0.7754906    
+  NOTICE   main:            6    65495698       12540  0.7743350    
+  NOTICE condsk:  1 output at    7  12   3   0
+  NOTICE condsk:  2 output at    7  12   3   0
+  NOTICE condsk:  3 output at    7  12   3   0
+  NOTICE condsk:  4 output at    7  12   3   0
+  NOTICE condsk:  5 output at    7  12   3   0
+  NOTICE condsk:  6 output at    7  12   3   0
+  NOTICE   main:            6    65495700       12540  0.7732008    
+  NOTICE parout:   24   7  12   3   0    Num=   12540
+                                                        Index  Height %Mass
+                                                            3   200.0  0.06
+                                                            2    75.0 43.68
+                                                            1    10.0 56.26
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10   92   47
+  NOTICE   main:            7    65495702       12540  0.7720588    
+  NOTICE   main:            7    65495704       12540  0.7709164    
+  NOTICE   main:            7    65495706       12540  0.7697907    
+  NOTICE   main:            7    65495708       12540  0.7686747    
+  NOTICE   main:            7    65495710       12540  0.7675337    
+  NOTICE   main:            7    65495712       12540  0.7664132    
+  NOTICE   main:            7    65495714       12540  0.7652969    
+  NOTICE   main:            7    65495716       12540  0.7641582    
+  NOTICE   main:            7    65495718       12540  0.7630436    
+  NOTICE   main:            7    65495720       12540  0.7619368    
+  NOTICE   main:            7    65495722       12540  0.7608122    
+  NOTICE   main:            7    65495724       12540  0.7597025    
+  NOTICE   main:            7    65495726       12540  0.7585936    
+  NOTICE   main:            7    65495728       12540  0.7574841    
+  NOTICE   main:            7    65495730       12540  0.7563846    
+  NOTICE   main:            7    65495732       12540  0.7552778    
+  NOTICE   main:            7    65495734       12540  0.7541679    
+  NOTICE   main:            7    65495736       12540  0.7530725    
+  NOTICE   main:            7    65495738       12540  0.7519706    
+  NOTICE   main:            7    65495740       12540  0.7508731    
+  NOTICE   main:            7    65495742       12540  0.7497809    
+  NOTICE   main:            7    65495744       12540  0.7486799    
+  NOTICE   main:            7    65495746       12540  0.7475932    
+  NOTICE   main:            7    65495748       12540  0.7464903    
+  NOTICE   main:            7    65495750       12540  0.7454028    
+  NOTICE   main:            7    65495752       12540  0.7443265    
+  NOTICE   main:            7    65495754       12540  0.7432368    
+  NOTICE   main:            7    65495756       12540  0.7421608    
+  NOTICE   main:            7    65495758       12540  0.7410883    
+  NOTICE   main:            7    65495760       12540  0.7400187    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10   93   47
+  NOTICE   main:            8    65495763       12540  0.7384098    
+  NOTICE   main:            8    65495766       12540  0.7368054    
+  NOTICE   main:            8    65495769       12540  0.7352077    
+  NOTICE   main:            8    65495772       12540  0.7335960    
+  NOTICE   main:            8    65495775       12540  0.7319890    
+  NOTICE   main:            8    65495778       12540  0.7304059    
+  NOTICE   main:            8    65495781       12540  0.7288238    
+  NOTICE   main:            8    65495784       12540  0.7272457    
+  NOTICE   main:            8    65495787       12540  0.7256780    
+  NOTICE   main:            8    65495790       12540  0.7241054    
+  NOTICE   main:            8    65495793       12540  0.7225374    
+  NOTICE   main:            8    65495796       12540  0.7209737    
+  NOTICE   main:            8    65495799       12540  0.7194118    
+  NOTICE   main:            8    65495802       12540  0.7178555    
+  NOTICE   main:            8    65495805       12540  0.7163019    
+  NOTICE   main:            8    65495808       12540  0.7147582    
+  NOTICE   main:            8    65495811       12540  0.7132220    
+  NOTICE   main:            8    65495814       12540  0.7116835    
+  NOTICE   main:            8    65495817       12540  0.7101397    
+  NOTICE condsk:  1 output at    7  12   5   0
+  NOTICE condsk:  2 output at    7  12   5   0
+  NOTICE condsk:  3 output at    7  12   5   0
+  NOTICE condsk:  4 output at    7  12   5   0
+  NOTICE condsk:  5 output at    7  12   5   0
+  NOTICE condsk:  6 output at    7  12   5   0
+  NOTICE   main:            8    65495820       12540  0.7086037    
+  NOTICE parout:   24   7  12   5   0    Num=   12540
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10   93   47
+  NOTICE   main:            9    65495823       12540  0.7070659    
+  NOTICE   main:            9    65495826       12540  0.7055320    
+  NOTICE   main:            9    65495829       12540  0.7040163    
+  NOTICE   main:            9    65495832       12540  0.7025102    
+  NOTICE   main:            9    65495835       12540  0.7010014    
+  NOTICE   main:            9    65495838       12540  0.6994808    
+  NOTICE   main:            9    65495841       12540  0.6979740    
+  NOTICE   main:            9    65495844       12540  0.6964708    
+  NOTICE   main:            9    65495847       12540  0.6949767    
+  NOTICE   main:            9    65495850       12540  0.6934749    
+  NOTICE   main:            9    65495853       12540  0.6919721    
+  NOTICE   main:            9    65495856       12540  0.6904909    
+  NOTICE   main:            9    65495859       12540  0.6890110    
+  NOTICE   main:            9    65495862       12540  0.6875176    
+  NOTICE   main:            9    65495865       12540  0.6860529    
+  NOTICE   main:            9    65495868       12540  0.6845825    
+  NOTICE   main:            9    65495871       12540  0.6830945    
+  NOTICE   main:            9    65495874       12540  0.6816251    
+  NOTICE   main:            9    65495877       12540  0.6801630    
+  NOTICE   main:            9    65495880       12540  0.6787010    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10   93   47
+  NOTICE metpos: (mtime,ftime) -     65496240    65495520
+  NOTICE metinp: CDC1 1 4325   10   10   92   47 65496240 24  7 12 12
+  NOTICE   main:           10    65495883       12540  0.6772475    
+  NOTICE   main:           10    65495886       12540  0.6757864    
+  NOTICE   main:           10    65495889       12540  0.6743370    
+  NOTICE   main:           10    65495892       12540  0.6728843    
+  NOTICE   main:           10    65495895       12540  0.6714301    
+  NOTICE   main:           10    65495898       12540  0.6699883    
+  NOTICE   main:           10    65495901       12540  0.6685519    
+  NOTICE   main:           10    65495904       12540  0.6671138    
+  NOTICE   main:           10    65495907       12540  0.6656930    
+  NOTICE   main:           10    65495910       12540  0.6642659    
+  NOTICE   main:           10    65495913       12540  0.6628368    
+  NOTICE   main:           10    65495916       12540  0.6614164    
+  NOTICE   main:           10    65495919       12540  0.6599939    
+  NOTICE   main:           10    65495922       12540  0.6585732    
+  NOTICE   main:           10    65495925       12540  0.6571540    
+  NOTICE   main:           10    65495928       12540  0.6557463    
+  NOTICE   main:           10    65495931       12540  0.6543466    
+  NOTICE   main:           10    65495934       12540  0.6529470    
+  NOTICE   main:           10    65495937       12540  0.6515489    
+  NOTICE condsk:  1 output at    7  12   7   0
+  NOTICE condsk:  2 output at    7  12   7   0
+  NOTICE condsk:  3 output at    7  12   7   0
+  NOTICE condsk:  4 output at    7  12   7   0
+  NOTICE condsk:  5 output at    7  12   7   0
+  NOTICE condsk:  6 output at    7  12   7   0
+  NOTICE   main:           10    65495940       12540  0.6501502    
+  NOTICE parout:   24   7  12   7   0    Num=   12540
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10   93   47
+  NOTICE   main:           11    65495946       12540  0.6473438    
+  NOTICE   main:           11    65495952       12540  0.6445678    
+  NOTICE   main:           11    65495958       12540  0.6418030    
+  NOTICE   main:           11    65495964       12540  0.6390582    
+  NOTICE   main:           11    65495970       12540  0.6363035    
+  NOTICE   main:           11    65495976       12540  0.6335517    
+  NOTICE   main:           11    65495982       12540  0.6308302    
+  NOTICE   main:           11    65495988       12540  0.6281133    
+  NOTICE   main:           11    65495994       12540  0.6254015    
+  NOTICE   main:           11    65496000       12540  0.6227165    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10   93   47
+  NOTICE   main:           12    65496006       12540  0.6200504    
+  NOTICE   main:           12    65496012       12540  0.6173844    
+  NOTICE   main:           12    65496018       12540  0.6147105    
+  NOTICE   main:           12    65496024       12540  0.6120509    
+  NOTICE   main:           12    65496030       12540  0.6094199    
+  NOTICE   main:           12    65496036       12540  0.6067715    
+  NOTICE   main:           12    65496042       12540  0.6041477    
+  NOTICE   main:           12    65496048       12540  0.6015427    
+  NOTICE   main:           12    65496054       12540  0.5989389    
+  NOTICE condsk:  1 output at    7  12   9   0
+  NOTICE condsk:  2 output at    7  12   9   0
+  NOTICE condsk:  3 output at    7  12   9   0
+  NOTICE condsk:  4 output at    7  12   9   0
+  NOTICE condsk:  5 output at    7  12   9   0
+  NOTICE condsk:  6 output at    7  12   9   0
+  NOTICE   main:           12    65496060       12540  0.5963467    
+  NOTICE parout:   24   7  12   9   0    Num=   12540
+                                                        Index  Height %Mass
+                                                            3   200.0  0.24
+                                                            2    75.0 45.66
+                                                            1    10.0 54.10
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10   93   47
+  NOTICE   main:           13    65496066       12540  0.5937626    
+  NOTICE   main:           13    65496072       12540  0.5911863    
+  NOTICE   main:           13    65496078       12540  0.5886175    
+  NOTICE   main:           13    65496084       12540  0.5860640    
+  NOTICE   main:           13    65496090       12540  0.5835261    
+  NOTICE   main:           13    65496096       12540  0.5809787    
+  NOTICE   main:           13    65496102       12540  0.5784619    
+  NOTICE   main:           13    65496108       12540  0.5759325    
+  NOTICE   main:           13    65496114       12540  0.5734255    
+  NOTICE   main:           13    65496120       12540  0.5709249    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10   93   47
+  NOTICE   main:           14    65496130       12540  0.5667648    
+  NOTICE   main:           14    65496140       12540  0.5626458    
+  NOTICE   main:           14    65496150       12540  0.5585366    
+  NOTICE   main:           14    65496160       12540  0.5544701    
+  NOTICE   main:           14    65496170       12540  0.5504063    
+  NOTICE condsk:  1 output at    7  12  11   0
+  NOTICE condsk:  2 output at    7  12  11   0
+  NOTICE condsk:  3 output at    7  12  11   0
+  NOTICE condsk:  4 output at    7  12  11   0
+  NOTICE condsk:  5 output at    7  12  11   0
+  NOTICE condsk:  6 output at    7  12  11   0
+  NOTICE   main:           14    65496180       12540  0.5463731    
+  NOTICE parout:   24   7  12  11   0    Num=   12540
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10   93   47
+  NOTICE   main:           15    65496192       12540  0.5415881    
+  NOTICE   main:           15    65496204       12540  0.5368099    
+  NOTICE   main:           15    65496216       12540  0.5320750    
+  NOTICE   main:           15    65496228       12540  0.5273633    
+  NOTICE   main:           15    65496240       12540  0.5227051    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10   93   47
+  NOTICE metpos: (mtime,ftime) -     65496600    65495880
+  NOTICE metinp: CDC1 1 4419   10   10   92   47 65496600 24  7 12 18
+  NOTICE   main:           16    65496255       12540  0.5169712    
+  NOTICE   main:           16    65496270       12540  0.5112705    
+  NOTICE   main:           16    65496285       12540  0.5056255    
+  NOTICE condsk:  1 output at    7  12  13   0
+  NOTICE condsk:  2 output at    7  12  13   0
+  NOTICE condsk:  3 output at    7  12  13   0
+  NOTICE condsk:  4 output at    7  12  13   0
+  NOTICE condsk:  5 output at    7  12  13   0
+  NOTICE condsk:  6 output at    7  12  13   0
+  NOTICE   main:           16    65496300       12540  0.5000342    
+  NOTICE parout:   24   7  12  13   0    Num=   12540
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10   93   47
+  NOTICE   main:           17    65496315       12540  0.4945115    
+  NOTICE   main:           17    65496330       12540  0.4890429    
+  NOTICE   main:           17    65496345       12540  0.4836135    
+  NOTICE   main:           17    65496360       12540  0.4782037    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10   93   47
+  NOTICE   main:           18    65496375       12540  0.4728989    
+  NOTICE   main:           18    65496390       12540  0.4676555    
+  NOTICE   main:           18    65496405       12540  0.4624260    
+  NOTICE condsk:  1 output at    7  12  15   0
+  NOTICE condsk:  2 output at    7  12  15   0
+  NOTICE condsk:  3 output at    7  12  15   0
+  NOTICE condsk:  4 output at    7  12  15   0
+  NOTICE condsk:  5 output at    7  12  15   0
+  NOTICE condsk:  6 output at    7  12  15   0
+  NOTICE   main:           18    65496420       12540  0.4572890    
+  NOTICE parout:   24   7  12  15   0    Num=   12540
+                                                        Index  Height %Mass
+                                                            3   200.0  0.38
+                                                            2    75.0 41.18
+                                                            1    10.0 58.44
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10   93   47
+  NOTICE   main:           19    65496435       12540  0.4521990    
+  NOTICE   main:           19    65496450       12540  0.4471624    
+  NOTICE   main:           19    65496465       12540  0.4421745    
+  NOTICE   main:           19    65496480       12540  0.4372660    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10   93   47
+  NOTICE   main:           20    65496495       12540  0.4323885    
+  NOTICE   main:           20    65496510       12540  0.4275847    
+  NOTICE   main:           20    65496525       12540  0.4228240    
+  NOTICE condsk:  1 output at    7  12  17   0
+  NOTICE condsk:  2 output at    7  12  17   0
+  NOTICE condsk:  3 output at    7  12  17   0
+  NOTICE condsk:  4 output at    7  12  17   0
+  NOTICE condsk:  5 output at    7  12  17   0
+  NOTICE condsk:  6 output at    7  12  17   0
+  NOTICE   main:           20    65496540       12540  0.4181263    
+  NOTICE parout:   24   7  12  17   0    Num=   12540
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10   93   47
+  NOTICE   main:           21    65496552       12540  0.4143848    
+  NOTICE   main:           21    65496564       12540  0.4106738    
+  NOTICE   main:           21    65496576       12540  0.4069970    
+  NOTICE   main:           21    65496588       12540  0.4033491    
+  NOTICE   main:           21    65496600       12540  0.3997331    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10   93   47
+  NOTICE metpos: (mtime,ftime) -     65496960    65496240
+  NOTICE metinp: CDC1 1 4513   10   10   92   47 65496960 24  7 13  0
+  NOTICE   main:           22    65496610       12540  0.3967561    
+  NOTICE   main:           22    65496620       12540  0.3938118    
+  NOTICE   main:           22    65496630       12540  0.3908757    
+  NOTICE   main:           22    65496640       12540  0.3879625    
+  NOTICE   main:           22    65496650       12540  0.3850731    
+  NOTICE condsk:  1 output at    7  12  19   0
+  NOTICE condsk:  2 output at    7  12  19   0
+  NOTICE condsk:  3 output at    7  12  19   0
+  NOTICE condsk:  4 output at    7  12  19   0
+  NOTICE condsk:  5 output at    7  12  19   0
+  NOTICE condsk:  6 output at    7  12  19   0
+  NOTICE   main:           22    65496660       12540  0.3822111    
+  NOTICE parout:   24   7  12  19   0    Num=   12540
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10   93   47
+  NOTICE   main:           23    65496670       12540  0.3793741    
+  NOTICE   main:           23    65496680       12540  0.3765544    
+  NOTICE   main:           23    65496690       12540  0.3737534    
+  NOTICE   main:           23    65496700       12540  0.3709939    
+  NOTICE   main:           23    65496710       12540  0.3682420    
+  NOTICE   main:           23    65496720       12540  0.3655155    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10   93   47
+  NOTICE   main:           24    65496730       12540  0.3628058    
+  NOTICE   main:           24    65496740       12540  0.3601274    
+  NOTICE   main:           24    65496750       12540  0.3574605    
+  NOTICE   main:           24    65496760       12540  0.3548148    
+  NOTICE   main:           24    65496770       12540  0.3521929    
+  NOTICE condsk:  1 output at    7  12  21   0
+  NOTICE condsk:  2 output at    7  12  21   0
+  NOTICE condsk:  3 output at    7  12  21   0
+  NOTICE condsk:  4 output at    7  12  21   0
+  NOTICE condsk:  5 output at    7  12  21   0
+  NOTICE condsk:  6 output at    7  12  21   0
+  NOTICE   main:           24    65496780       12540  0.3495895    
+  NOTICE parout:   24   7  12  21   0    Num=   12540
+                                                        Index  Height %Mass
+                                                            4   385.0  0.02
+                                                            3   200.0  0.83
+                                                            2    75.0 41.28
+                                                            1    10.0 57.87
